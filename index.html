@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Wokshops con Bootstrap 3</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/workshop.css">
+</head>
+<body>
+	<header id="main-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-5 col-sm-3">
+						<h1 id="main_logo"><a href="index.html">WKSP<span>Workshops demo site</span></a></h1>
+					</div>
+					<nav class="col-xs-7 col-sm-9">
+						<ul id="main_menu" class="nav nav-pills hidden-xs">
+							<li class="active">
+						    	<a href="index.html">
+						      		Inicio
+						    	</a>				    	
+						  	</li>
+						  	<li role="presentation" class="dropdown">
+						    	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Workshops <span class="caret"></span></a>
+						    	<ul class="dropdown-menu">
+						    		<li><a href="detail.html">Workshop A</a></li>
+						    		<li><a href="detail.html">Workshop B</a></li>
+						    	</ul>
+						  	</li>
+					  		<li>
+					  	    	<a href="index.html">
+					  	      		Instalaciones
+					  	    	</a>				    	
+					  	  	</li>
+					  	  	<li>
+						    	<a href="index.html">
+						      		Faq
+						    	</a>				    	
+						  	</li>
+						  	<li>
+						    	<a href="index.html">
+						      		Contacto
+						    	</a>				    	
+						  	</li>
+						</ul>
+						<a href="#" id="mobile-menu-button" class="btn btn-default visible-xs">
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+						</a>
+					</nav>
+				</div>
+			</div>
+			<div class="visible-xs">
+				<ul id="mobile-main-menu">
+					<li class="active"><a href="index.html">Inicio</a></li>
+		    		<li><a href="detail.html">Workshop A</a></li>
+		    		<li><a href="detail.html">Workshop B</a></li>
+			  		<li><a href="index.html">Instalaciones</a></li>
+			  	  	<li><a href="index.html">Faq</a></li>
+				  	<li><a href="index.html">Contacto</a></li>
+				</ul>
+			</div>
+	</header>
+	
+	<div id="workshop-list" class="margin-top">
+		<article id="w1" class="workshop workshop-left">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-3 col-sm-push-9 col-md-4 col-md-push-8 col-lg-6 col-lg-push-6 date-info">
+						<h3 class="hightlighted"><strong>W21</strong> 13/14 de abril</h3>
+						<h3 class="hightlighted">20 plazas</h3>
+						<h3 class="hightlighted">99 €</h3>
+					</div>
+					<div class="col-xs-12 col-sm-9 col-sm-pull-3 col-md-8 col-md-pull-4 col-lg-6 col-lg-pull-6  main-info">
+						<h2>Desarrolla front-end like a boss aprendiendo Bootstrap 3</h2>
+						<p>Disfrta de un fin de semana diferente aprendiendo con <a href="http://twitter.com/mayconxhh">Maycon X. Huayapa H.</a></p>
+						<a href="detail.html" class="btn btn-custom">ME APUNTO!</a>
+						<a href="detail.html" class="more-info-link">quiero mas información</a>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article id="w2" class="workshop workshop-right">
+			<div class="container">
+				<div class="row  main-info">
+					<div class="col-xs-12 col-sm-3 col-md-4 col-lg-6 date-info">
+						<h3 class="hightlighted"><strong>W38</strong> 19/20 de abril</h3>
+						<h3 class="hightlighted">20 plazas</h3>
+						<h3 class="hightlighted">120 €</h3>
+					</div>
+					<div class="col-xs-12  col-sm-9 col-md-8 col-lg-6 main-info">
+						<h2>Desarrolla aplicaciones multitarea con Adobe AIR</h2>
+						<p>Sorprendete de lo fácil que puede ser crear apps para iOS y Android con este workshop impartido por <a href="#">Alberto Sisco</a></p>
+						<a href="detail.html" class="more-info-link">quiero mas información</a>
+						<a href="detail.html" class="btn btn-custom">ME APUNTO!</a>
+					</div>
+				</div>
+			</div>
+		</article>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-5">
+					<h3>PRÓXIMOS WORKSHOPS</h3>
+					<ul class="next__workshops">
+						<li><a href="detail.html">Titulo del workshop de prueba</a></li>
+						<li><a href="detail.html">Titulo del workshop de prueba</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+					<h3>NO TE PIERDAS NUESTRAS NOVEDADES</h3>
+					<form id="suscribe-form" action="">
+						<div class="row">
+							<div class="col-xs-12 col-sm-8">
+								<div class="form-group">
+									<label class="sr-only" for="email">tu correo electrónico</label>
+									<input type="text" id="email" name="email" class="form-control input-lg" placeholder="Tu correo electrónico">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<button class="btn btn-custom btn-lg">SUSCRIBIRME</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="clearfix"></div>
+				<div class="col-xs-12 col-sm-5">
+					<h3>SOBRE LOS WORKSHOPS</h3>
+					<p>Estos workshps son el resultado de la suma de la ilusión y esfuerzos de <a href="#">Empresa</a>, <a href="#">Empresa 2</a> y <a href="#">Persona</a></p>
+					<p>Una apuesta diferente al panorama informativo nacional aunando workshops de primer nivel, impoatidos por reconocidos profesionales con una experiencia de fin de semana, en un entorno diferente. </p>
+				</div>
+				<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+					<h3>TE GUSTA? CORRE LA VOZ</h3>
+					<p>Si te gusta esta filosofía de formación, o has acudido a uno de nuestros workshops y te hemos convencido, ayúdanos a promocionarlos por Internet para que otros puedan disfrutar de ellos:</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56eb934ea39cd488"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/code.js"></script>
+</body>
+</html>

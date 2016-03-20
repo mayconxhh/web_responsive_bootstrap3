@@ -1,0 +1,158 @@
+body{
+	font-size: 16px;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+}
+p{
+	color: #777;
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+ul li {
+	margin-bottom: 5px;
+}
+.margin-top{
+	margin-top: 80px;
+}
+/*Estilos del header*/
+
+#main-header{
+	position: fixed;
+	top: 0;
+	width:100%;
+	background-color: #fff;
+	z-index: 99;
+	box-shadow: 0 1px 5px #999;
+}
+#main_logo{
+	width: 100%;
+	height: 80px;
+	padding: 2px 0 0 20px;
+	margin: 0;
+	background-color: #A3D900;
+}
+
+#main_logo > a {
+	font-size: 2rem;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+}
+#main_logo > a > span{
+	display: block;
+	color: #DFFFBF;
+	font-size: 1.3rem;
+}
+
+#main_menu{
+	float: right;
+	margin-top: 30px;
+}
+#main_menu a{
+	color: #aaa;
+}
+#main_menu a:hover{
+	color: #a3d900;
+}
+#main_menu.nav-pills>li.active>a,
+#main_menu.nav-pills>li.active>a:hover,
+#main_menu.nav-pills>li.active>a:focus,
+#main_menu.nav-pills>li>a:hover {
+	background:none;
+}
+#main_menu.nav-pills>li.active>a,
+#main_menu.nav-pills>li.active>a:hover,
+#main_menu.nav-pills>li.active>a:focus{
+	color: #a3d900;
+}
+#main_menu.nav .open>a,
+#main_menu.nav .open>a:hover,
+#main_menu.nav .open>a:focus{
+	background:none;
+}
+
+#mobile-menu-button{
+	float: right;
+	width: 44px;
+	margin: 20px 0;
+}
+
+#mobile-main-menu{
+	display: none;
+}
+
+#mobile-main-menu a{
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	border-top: 1px solid #eee;
+	color: #aaa;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#mobile-main-menu li{
+	margin: 0;
+}
+
+#mobile-main-menu a:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #a3d900;
+}
+
+footer{
+	padding: 30px 0;
+	background-color: #333;
+}
+footer a, footer a:hover{
+	color: #fff;
+	font-weight: 400;
+}
+footer h3{
+	margin-top: 30px;
+	color: #fff;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+footer p {
+	color: #ddd;
+	font-weight: 200;
+}
+
+.next__workshops a{
+	color: #00BFFF;
+	text-decoration: none;
+}
+.next__workshops a:hover{
+	color: white;
+	text-decoration: none;
+}
+#suscribe-form input{
+	padding: 0 24px;
+	border: 0;
+	color: #ccc;
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: normal;
+	background-color: #222;
+}
+#suscribe-form button{
+	width: 100%;
+	color: #444;
+	background-color: #eee;
+	line-height: 2.4rem;
+}
+
+.btn-custom{
+	border: 0;
+	border-radius: 2px;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
